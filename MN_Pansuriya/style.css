@@ -1,0 +1,279 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.283)), url("/img/Surat-station.jpeg");
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-bottom-left-radius: 125px;
+  border-bottom-right-radius: 125px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.image{
+  float: right;
+}
+
+#counter {    
+  background-color: #FFC8E6;
+  color: #CDA274;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  padding: 50px 0;
+}
+#counter .count {
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #CDA274;
+  text-align: center;
+}
+.count h4 {
+  color: #fff;
+font-size: 20px;
+margin-top: 0;
+}
+#counter .count .fa {
+  font-size: 60px;
+  display: block;
+  color: #fff;
+}
+#counter .number {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+}
+/*  Pricing Section  */
+
+#pricing {
+  background: #f7f7f7;
+}
+.pricing-items {
+  padding-top: 50px;
+}
+.pricing-item {
+  background: #fff;
+  position: relative;
+  box-shadow: 0 0 9px 0 rgba(130, 121, 121, .2);
+  padding: 50px 0px;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+}
+.pricing-item.active {
+  top: -50px;
+}
+.price-list li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.price-list .price {
+  font-size: 30px;
+  font-weight: bold;
+}
+.pricing-item .ribbon {
+  margin: -50px 0 20px;
+  display: block;
+  background-color: #ffb400;
+  padding: 15px 0 2px;
+  opacity: 0.8;
+  border-top-right-radius: 2em;
+}
+.pricing-item:hover .ribbon {
+  background-color: #ffb400;
+opacity: 1;
+}
+.pricing-item.active .ribbon {
+  background-color: #ffb400;
+opacity: 1;
+}
+.pricing-item .ribbon p {
+  font-size: 22px;
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+.pricing-item.active .price-list li, .pricing-item:hover .price-list li {
+}
+ul.price-list {
+  margin-bottom: 30px;
+  padding: 0;
+}
+.btn-price {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 14px 40px;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -o-border-radius: 26px;
+  border-radius: 26px;
+  border: 1px solid #848181;
+  background-color: transparent;
+  color: #848181;
+}
+.pricing-item:hover .btn-price,
+.active .btn-price {
+  border: 1px solid #ffb400;
+  background-color: #ffb400;
+  color: #fff;
+}
+.btn-price:focus {
+  background-color: transparent;
+  text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+  .pricing-items {
+      padding-top: 0;
+  }
+  .pricing-item.active {
+      top: 20px;
+      margin-bottom: 40px;
+  }
+}
+
+.contact{
+  padding: 4%;
+  height: 400px;
+}
+.col-md-3{
+  background: #FFC8E6;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+  margin-top:10%;
+}
+.contact-info img{
+  margin-bottom: 15%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+.col-md-9{
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+  font-weight:600;
+}
+.contact-form button{
+  background: #25274d;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+.contact-form button:focus{
+  box-shadow:none;
+}
+
+
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #FFFFFF !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color: black;
+}
+#footer a {
+    color: black;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:black;
+}
+#footer ul.social li a:hover{
+	color:black;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
